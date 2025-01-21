@@ -1,3 +1,3 @@
 ## Portfolio Website
 
-Visit my portfolio website made with React and Javascript <a href="https://dhruvbhatia14.github.io/portfolio/" target="_blank"><u>**here**</u></a>! 👨🏻‍💻
+Visit my portfolio website made with React and Javascript <a href="#" onclick = 'window.open("https://dhruvbhatia14.github.io/portfolio/"); return false;'><u>**here**</u></a>! 👨🏻‍💻
