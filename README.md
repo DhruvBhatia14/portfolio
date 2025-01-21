@@ -1,3 +1,3 @@
 ## Portfolio Website
 
-Visit my portfolio website made with React and Javascript. ## 🗣👨🏻‍💻
+Visit my portfolio website made with React and Javascript. 🗣👨🏻‍💻
