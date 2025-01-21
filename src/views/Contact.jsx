@@ -10,12 +10,11 @@ const Contact = () => {
   const [message, setMessage] = useState("");
   
   useEffect(() => {
-    // Initialize EmailJS when the component mounts
-    emailjs.init("04EFsw4NcgmFpidRR"); // Your public key
+    emailjs.init("04EFsw4NcgmFpidRR");
   }, []);
 
   const sendEmail = (event) => {
-    event.preventDefault(); // Prevent default form submission
+    event.preventDefault();
     
     emailjs
       .send("service_h4dca9g", "template_g9ala9m", {
