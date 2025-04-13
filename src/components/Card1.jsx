@@ -15,7 +15,7 @@ const Card1 = () => {
       <a href="hello">
         <img
           class="rounded-t-lg w-full"
-          src="https://images.wallpaperscraft.com/image/single/system_scheme_blue_blueprint_10428_300x168.jpg"
+          src="src/assets/AirpadPicture.png"
           alt=""
         />
       </a>
