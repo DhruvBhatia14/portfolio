@@ -15,7 +15,7 @@ const Card1 = () => {
       <a href="hello">
         <img
           class="rounded-t-lg w-full"
-          src="src/assets/AirpadPicture.png"
+          src="../assets/AirpadPicture.png"
           alt=""
         />
       </a>
