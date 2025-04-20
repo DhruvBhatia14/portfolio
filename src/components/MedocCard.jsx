@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const Card4 = () => {
+const MedocCard = () => {
   return (
     <motion.div
       initial={"hidden"}
@@ -15,23 +15,22 @@ const Card4 = () => {
       <a href="hello">
         <img
           class="rounded-t-lg w-full"
-          src="https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/content-assets/images/20230617_AMP502.jpg"
+          src="https://img.freepik.com/free-photo/health-still-life-with-copy-space_23-2148854034.jpg"
           alt=""
         />
       </a>
       <div class="p-5">
         <a href="helo">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-            VeriFire
+            MeDoc
           </h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-        Developed a web application leveraging AWS services for efficient data handling and deployment. 
-        Created Lambda functions to scrape data from Alberta government and news websites, storing it in DynamoDB for seamless access via API Gateway. 
-        Designed a dynamic frontend using React and MUI components, and deployed the application on an EC2 instance with an Elastic IP for reliable access.
+        Developed a highly accurate disease prediction app utilizing logistic regression for real-time symptom analysis, achieving over 98% accuracy by training on extensive medical records and symptom data. 
+        The app features a medicine recommendation system for predicted diseases and a user-friendly interface designed with HTML/CSS. Seamless integration between the frontend and backend was achieved using Python and Django, ensuring an efficient and intuitive user experience.
         </p>
         <a
-          href="https://github.com/DhruvBhatia14/Veri-Fire"
+          href="https://github.com/DhruvBhatia14/SatelliteUpdate"
           target="_blank" rel="noopener noreferrer"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
@@ -54,4 +53,4 @@ const Card4 = () => {
   );
 };
 
-export default Card4;
+export default MedocCard;

@@ -1,8 +1,9 @@
 import React, { useContext } from "react";
-import Card1 from "../components/Card1";
-import Card2 from "../components/Card2";
-import Card3 from "../components/Card3";
-import Card4 from "../components/Card4"
+import AirpadCard from "../components/AirpadCard";
+import RnnCard from "../components/RnnCard";
+import MedocCard from "../components/MedocCard";
+import SatCard from "../components/SatCard";
+import VerifireCard from "../components/VerifireCard"
 import { ThemeContext } from "../themeProvider";
 
 const Projects = () => {
@@ -22,10 +23,11 @@ const Projects = () => {
           What I Built
         </h4>
         <div className="mt-8 flex justify-between items-stretch flex-wrap">
-          <Card1 />
-          <Card2 />
-          <Card3 />
-          <Card4 />
+          <AirpadCard />
+          <RnnCard />
+          <MedocCard />
+          <SatCard />
+          <VerifireCard />
         </div>
       </div>
     </div>

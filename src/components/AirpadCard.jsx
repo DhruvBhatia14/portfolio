@@ -1,7 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
+import airpadpic from "../assets/AirpadPicture.png";
 
-const Card2 = () => {
+const AirpadCard = () => {
   return (
     <motion.div
       initial={"hidden"}
@@ -15,22 +16,22 @@ const Card2 = () => {
       <a href="hello">
         <img
           class="rounded-t-lg w-full"
-          src="https://img.freepik.com/free-photo/health-still-life-with-copy-space_23-2148854034.jpg"
-          alt=""
+          src= {airpadpic}
+          alt="hllo"
         />
       </a>
       <div class="p-5">
         <a href="helo">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-            MeDoc
+            AirPad
           </h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-        Developed a highly accurate disease prediction app utilizing logistic regression for real-time symptom analysis, achieving over 98% accuracy by training on extensive medical records and symptom data. 
-        The app features a medicine recommendation system for predicted diseases and a user-friendly interface designed with HTML/CSS. Seamless integration between the frontend and backend was achieved using Python and Django, ensuring an efficient and intuitive user experience.
+        Developed an air-writing application using computer vision techniques for hand gesture detection, real-time text
+        rendering, and JPEG generation.
         </p>
         <a
-          href="https://github.com/DhruvBhatia14/SatelliteUpdate"
+          href="https://github.com/DhruvBhatia14/Airpad"
           target="_blank" rel="noopener noreferrer"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
@@ -53,4 +54,4 @@ const Card2 = () => {
   );
 };
 
-export default Card2;
+export default AirpadCard;

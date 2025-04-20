@@ -1,8 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import airpadpic from "../assets/AirpadPicture.png";
 
-const Card1 = () => {
+const VerifireCard = () => {
   return (
     <motion.div
       initial={"hidden"}
@@ -16,22 +15,23 @@ const Card1 = () => {
       <a href="hello">
         <img
           class="rounded-t-lg w-full"
-          src= {airpadpic}
-          alt="hllo"
+          src="https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/content-assets/images/20230617_AMP502.jpg"
+          alt=""
         />
       </a>
       <div class="p-5">
         <a href="helo">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-            AirPad
+            VeriFire
           </h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-        Developed an air-writing application using computer vision techniques for hand gesture detection, real-time text
-        rendering, and JPEG generation.
+        Developed a web application leveraging AWS services for efficient data handling and deployment. 
+        Created Lambda functions to scrape data from Alberta government and news websites, storing it in DynamoDB for seamless access via API Gateway. 
+        Designed a dynamic frontend using React and MUI components, and deployed the application on an EC2 instance with an Elastic IP for reliable access.
         </p>
         <a
-          href="https://github.com/DhruvBhatia14/Airpad"
+          href="https://github.com/DhruvBhatia14/Veri-Fire"
           target="_blank" rel="noopener noreferrer"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
@@ -54,4 +54,4 @@ const Card1 = () => {
   );
 };
 
-export default Card1;
+export default VerifireCard;

@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const Card3 = () => {
+const SatCard = () => {
   return (
     <motion.div
       initial={"hidden"}
@@ -54,4 +54,4 @@ const Card3 = () => {
   );
 };
 
-export default Card3;
+export default SatCard;
