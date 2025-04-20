@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import airpadpic from "../assets/AirpadPicture.png";
 
 const Card1 = () => {
   return (
@@ -15,8 +16,8 @@ const Card1 = () => {
       <a href="hello">
         <img
           class="rounded-t-lg w-full"
-          src="../assets/AirpadPicture.png"
-          alt=""
+          src= {airpadpic}
+          alt="hllo"
         />
       </a>
       <div class="p-5">
