@@ -53,7 +53,7 @@ const Home = () => {
               <div className="mt-3 sm:mt-0 cursor-pointer w-1/2">
               <a 
                 className="accent-button w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium md:py-4 md:text-lg md:px-10"
-                href="https://drive.google.com/file/d/1lUiUwMviXRyDM6TwZwHN1TPjdhnTpkXz/view?usp=sharing" 
+                href="https://drive.google.com/file/d/1rDJmoZBzYWb59xUyC_yfMcPndst_HPq6/view?usp=sharing"
                 target="_blank" 
                 rel="noopener noreferrer"
               >
