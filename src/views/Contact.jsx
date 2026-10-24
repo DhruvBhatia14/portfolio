@@ -1,6 +1,5 @@
-import React, { useContext, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { contactLinks } from "../constants";
-import { ThemeContext } from "../themeProvider";
 import emailjs from "emailjs-com";
 
 const Contact = () => { 
@@ -38,27 +37,23 @@ const Contact = () => {
   };
 
 
-  const theme = useContext(ThemeContext);
-  const darkMode = theme.state.darkMode;
-  
   return (
     <div
       id="contact"
       className={
-        darkMode
-          ? "bg-gray-100 pt-24 md:h-screen"
-          : "bg-black pt-24 text-white md:h-screen"
+        "site-section pt-24 md:h-screen"
       }
     >
       <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 ">
-        <h2 className="text-5xl font-bold px-4 md:px-0 text-center z-0">
+        <p className="section-kicker text-center">Have a project in mind?</p>
+        <h2 className="section-heading px-4 md:px-0 text-center z-0">
           Contact
         </h2>
         <div>
-          <h4 className="mt-12 text-3xl font-semibold text-blue-500">
+          <h4 className="section-kicker mt-12">
             Connect with me
           </h4>
-          <p className="text-gray-500 text-xl">
+          <p className="section-copy text-xl">
             If you want to know more about me or my work, or if you would just
             <br />
             like to say hello, send me a message. I'd love to hear from you.
@@ -70,18 +65,14 @@ const Contact = () => {
               <div class="my-6">
                 <label
                   for="name"
-                  class={
-                    darkMode
-                      ? "block mb-2 text-lg font-medium text-gray-900"
-                      : "block mb-2 text-lg font-medium text-white"
-                  }
+                  className="block mb-2 text-lg font-medium text-white"
                 >
                   Name
                 </label>
                 <input
                   type="text"
                   id="name"
-                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  className="contact-input text-sm block w-full p-3"
                   placeholder="Enter your name"
                   onChange={(e) => setName(e.target.value)}
                   required
@@ -90,18 +81,14 @@ const Contact = () => {
               <div className="mb-4">
                 <label
                   for="email"
-                  class={
-                    darkMode
-                      ? "block mb-2 text-lg font-medium text-gray-900"
-                      : "block mb-2 text-lg font-medium text-white"
-                  }
+                  className="block mb-2 text-lg font-medium text-white"
                 >
                   Email
                 </label>
                 <input
                   type="email"
                   id="email"
-                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  className="contact-input text-sm block w-full p-3"
                   placeholder="Enter your email"
                   onChange={(e) => setEmail(e.target.value)}
                   required
@@ -110,17 +97,13 @@ const Contact = () => {
               <div className="mb-4">
                 <label
                   for="message"
-                  class={
-                    darkMode
-                      ? "block mb-2 text-lg font-medium text-gray-900"
-                      : "block mb-2 text-lg font-medium text-white"
-                  }
+                  className="block mb-2 text-lg font-medium text-white"
                 >
                   Message
                 </label>
                 <textarea
                   id="message"
-                  class="bg-gray-50 border border-gray-300 text-gray-900 h-28 w-full text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  className="contact-input text-sm block p-3"
                   placeholder="Enter your message"
                   onChange={(e) => setMessage(e.target.value)}
                   required
@@ -133,7 +116,7 @@ const Contact = () => {
                   </a>
                 </div> */}
                 <br></br>
-                <button className="bg-indigo-500 text-white px-4 py-2 w-40 rounded-md hover:bg-indigo-400" type="submit" onClick = {sendEmail}>
+                <button className="accent-button text-white px-4 py-2 w-40" type="submit" onClick = {sendEmail}>
                   Submit
                 </button>
               </div>

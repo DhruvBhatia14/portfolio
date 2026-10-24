@@ -11,7 +11,7 @@ const RnnCard = () => {
         visible: { opacity: 1 },
         hidden: { opacity: 0 },
       }}
-      class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
+      className="project-card max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg my-8"
     >
       <a href="hello">
         <img

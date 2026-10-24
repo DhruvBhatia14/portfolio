@@ -56,17 +56,36 @@ export const contactLinks = [
 export const serviceData = [
     {
       id: 1,
-      detail: "Resolver Inc.",
-      title: "Frontend Developer",
+      detail: 'IBM Payments Center',
+      title: "Machine Learning Developer",
       location: "Toronto, Ontario",
       description:
-        "Migration of tests from Enzyme to React Testing Library",
-      buttonText: "View Frontend Projects",
-      date: "January 2025 - present",
+        "Architected a LangGraph multi-agent platform for financial market infrastructures, including vulnerability discovery and attack execution. Evaluated ReAct, planner, supervisor, and deep-agent architectures; added LLM-as-a-Judge, pre-execution validation, and human approval guardrails. Built telemetry feedback loops, a GitHub Projects MCP server, and an automated GitHub activity reporting pipeline with Amazon SES delivery.",
+      date: "May 2026 - Present",
       icon: "work",
     },
     {
       id: 2,
+      detail: 'University of Alberta',
+      title: "Undergraduate Teaching Assistant - CMPUT 272",
+      location: "Edmonton, Alberta",
+      description:
+        "Conducted seminars and office hours supporting 400+ students with core computational logic concepts.",
+      date: "September 2025 - December 2025",
+      icon: "work",
+    },
+    {
+      id: 3,
+      detail: "Resolver, a Kroll Business",
+      title: "Software Developer",
+      location: "Toronto, Ontario",
+      description:
+        "Migrated 480+ unit tests from Enzyme to React Testing Library and reduced test runtime by 40% through API mocking. Migrated RabbitMQ messaging to Amazon SQS with Terraform, built Slackbots to automate workflows, and authored frontend microservices migration architecture recommendations.",
+      date: "January 2025 - August 2025",
+      icon: "work",
+    },
+    {
+      id: 4,
       detail: 'University of Alberta',
       title: "Undergraduate Research Assistant",
       location: "Edmonton, Alberta",
@@ -77,7 +96,7 @@ export const serviceData = [
       icon: "work",
     },
     {
-      id: 3,
+      id: 5,
       detail: 'University of Alberta',
       title: "Dean's Research Awards",
       location: "Edmonton, Alberta",
@@ -88,7 +107,7 @@ export const serviceData = [
       icon: "work",
     },
     {
-      id: 4,
+      id: 6,
       grade: 'GPA : 3.9 (First Class Standing)',
       title: "University of Alberta",
       location: "Edmonton, Alberta",
@@ -99,7 +118,7 @@ export const serviceData = [
       icon: "school",
     },
     {
-      id: 5,
+      id: 7,
       grade: 'Graduated with 96.4%',
       title: "GD Goenka Public School",
       location: "Gurugram, India",

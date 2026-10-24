@@ -1,32 +1,24 @@
-import React, { useContext } from "react";
+import React from "react";
 import { serviceData } from "../constants";
-import { ThemeContext } from "../themeProvider";
 // import { motion } from "framer-motion";
 import { ReactComponent as WorkIcon } from "./work.svg";
 import { ReactComponent as SchoolIcon } from "./school.svg";
 import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 const Services = () => {
-  const theme = useContext(ThemeContext);
   let workIconStyles = { background: "#3b82f6" };
   let schoolIconStyles = { background: "#3b82f6" };
 
   return (
     <div
-      className={
-        theme.state.darkMode ? "pb-20 bg-fixed bg-gray-100" : "pb-20 bg-black"
-      }
+      className="site-section timeline-section pb-20"
     >
       <div
         className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 px-4 pt-20"
         id="services"
       >
         <h2
-          className={
-            theme.state.darkMode
-              ? "text-5xl font-bold px-4 md:px-0 text-center"
-              : "text-5xl font-bold px-4 md:px-0 text-center text-white"
-          }
+          className="section-heading px-4 md:px-0 text-center"
         >
           Experiences
         </h2>
